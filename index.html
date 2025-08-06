@@ -130,27 +130,36 @@
 <!-- Paper abstract -->
 <section class="section hero is-light">
   <div class="container is-max-desktop">
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Abstract</h2>
+    <div class="columns is-vcentered">
+      <!-- Abstract Column -->
+      <div class="column is-half">
+        <h2 class="title is-3 has-text-centered">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-Wearables generate rich motion data, yet current systems only classify what happened—failing to 
-support natural questions about why it happened or what it means. We introduce LLaSA 
-(Large Language and Sensor Assistant), a compact 13B model that enables ask-anything, 
-open-ended question answering grounded in raw IMU data. LLaSA supports conversational, 
-context-aware reasoning—explaining the causes of sensor-detected behaviors and answering 
-free-form questions in real-world scenarios. It is tuned for scientific accuracy, coherence, 
-and response reliability. To advance this new task of sensor-based QA, we release three 
-large-scale datasets: SensorCaps, OpenSQA, and Tune-OpenSQA. Together, these resources 
-define a new benchmark for sensorlanguage models. LLaSA consistently produces interpretable, 
-causal answers and outperforms commercial LLMs across both public and real-world settings
+            Wearables generate rich motion data, yet current systems only classify what happened—failing to 
+            support natural questions about why it happened or what it means. We introduce LLaSA 
+            (Large Language and Sensor Assistant), a compact 13B model that enables ask-anything, 
+            open-ended question answering grounded in raw IMU data. LLaSA supports conversational, 
+            context-aware reasoning—explaining the causes of sensor-detected behaviors and answering 
+            free-form questions in real-world scenarios. It is tuned for scientific accuracy, coherence, 
+            and response reliability. To advance this new task of sensor-based QA, we release three 
+            large-scale datasets: SensorCaps, OpenSQA, and Tune-OpenSQA. Together, these resources 
+            define a new benchmark for sensorlanguage models. LLaSA consistently produces interpretable, 
+            causal answers and outperforms commercial LLMs across both public and real-world settings.
           </p>
+        </div>
+      </div>
+
+      <!-- Image Column -->
+      <div class="column is-half">
+        <div style="height: 100%; display: flex; align-items: stretch;">
+          <img src="static/images/llasa/big_pic.png" alt="Illustration" style="width: 100%; object-fit: contain;">
         </div>
       </div>
     </div>
   </div>
 </section>
+
 
 
 <section class="hero is-small">
